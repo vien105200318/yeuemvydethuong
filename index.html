@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng 20/10 ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js CDN - Updated to latest stable version -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.150.0/build/three.min.js"></script>
+</head>
+<body>
+    <!-- Canvas cho Three.js 3D hearts -->
+    <canvas id="threeCanvas"></canvas>
+    
+    <div class="container">
+        <div class="question-section" id="questionSection">
+            <h1 class="title">💖 Chúc mừng ngày 20/10 💖</h1>
+            <h2 class="question">Em có yêu anh không? 🥰</h2>
+            <div class="button-container">
+                <button class="btn btn-yes" id="btnYes">Có ❤️</button>
+                <button class="btn btn-no" id="btnNo">Không 💔</button>
+            </div>
+        </div>
+
+        <div class="result-section" id="resultSection">
+            <h1 class="celebration">🎉 Yeyyy! Anh yêu em nhiều lắm! 🎉</h1>
+            <div class="image-container">
+                <!-- Sử dụng ảnh cục bộ: đặt file tại images/1.jpg -->
+                <img src="images/1.jpg" alt="Love" class="love-image">
+            </div>
+            <p class="message">
+                Chúc EM VYYYY ngày 20/10 thật vui vẻ và hạnh phúc! 💕<br>
+                Luôn là cô gái tuyệt vời nhất trong trái tim anh! 🌹
+            </p>
+        </div>
+    </div>
+
+    <!-- Đặt file âm thanh tại audio/1.mp3 -->
+    <audio id="loveAudio" src="audio/1.mp3"></audio>
+    
+    <script src="three-hearts.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
